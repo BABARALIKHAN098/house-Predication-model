@@ -139,10 +139,10 @@ with tab1:
                 'Market_dist': [market_dist],
                 'Hospital_dist': [hospital_dist],
                 'Carpet_area': [carpet_area],
-                'Builtup_area': [builtup_area],
                 'Parking_type': [parking_type],
                 'City_type': [city_type],
-                'Rainfall': [rainfall]
+                'Rainfall': [rainfall],
+                'Area_ratio': [carpet_area / builtup_area]
             })
             
             try:
